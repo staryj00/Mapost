@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" android:weightSum="1" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".RegActivity" android:background="#ffffff" android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#000000" android:layout_marginTop="15dp" android:gravity="center" android:textSize="50dp" android:text="회원가입" android:id="@+id/textView4"/>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_marginTop="30dp">
+
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="100dp" android:layout_height="100dp" android:background="@drawable/icon1" android:id="@+id/imgv"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="20dp" android:layout_weight="0.2">
+
+
+    <LinearLayout android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#000000" android:gravity="center" android:textSize="15sp" android:text="ID:" android:id="@+id/textView" android:layout_weight="0.25" android:textStyle="bold"/>
+
+    <android.support.design.widget.TextInputEditText android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="20sp" android:id="@+id/etxtID" android:layout_weight="0.75" android:textCursorDrawable="@drawable/cursor_color" android:paddingLeft="10dp" android:textColorHint="#C9DBEC" android:layout_margin="10dp" android:inputType="textPersonName" android:hint="ID" android:ems="10"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp" android:gravity="center">
+
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#000000" android:gravity="center" android:textSize="14sp" android:text="PASSWORD:" android:id="@+id/textView2" android:layout_weight="0.25" android:textStyle="bold"/>
+
+    <android.support.design.widget.TextInputEditText android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="20sp" android:id="@+id/etxtPwd" android:layout_weight="0.75" android:textCursorDrawable="@drawable/cursor_color" android:paddingLeft="10dp" android:textColorHint="#C9DBEC" android:layout_margin="10dp" android:inputType="textPersonName" android:hint="Password" android:ems="10"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp" android:gravity="center">
+
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#000000" android:gravity="center" android:textSize="15sp" android:text="NAME:" android:id="@+id/textView3" android:layout_weight="0.25" android:textStyle="bold"/>
+
+    <android.support.design.widget.TextInputEditText android:layout_width="0dp" android:layout_height="wrap_content" android:textColor="#000000" android:textSize="20sp" android:id="@+id/etxtName" android:layout_weight="0.75" android:textCursorDrawable="@drawable/cursor_color" android:paddingLeft="10dp" android:textColorHint="#C9DBEC" android:layout_margin="10dp" android:inputType="textPersonName" android:hint="Name" android:ems="10"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="15dp" android:gravity="center" android:layout_weight="0.2">
+
+    <Button android:layout_width="100dp" android:layout_height="50dp" android:background="@drawable/btncorner" android:textColor="#ffffff" android:textSize="20dp" android:text="등록" android:id="@+id/btnJoin"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".AllViewActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:weightSum="1">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:layout_gravity="center" android:fontFamily="@font/nanumgothicextrabold" android:textSize="30dp" android:text="MY MEMO LIST" android:id="@+id/textView6"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:weightSum="1" android:layout_marginTop="10dp">
+
+    <TextView android:layout_height="50dp" android:layout_width="0dp" android:fontFamily="@font/nanumgothicextrabold" android:text="장소" android:id="@+id/textView" android:layout_weight="0.4" android:gravity="center"/>
+
+    <TextView android:layout_height="50dp" android:layout_width="0dp" android:fontFamily="@font/nanumgothicextrabold" android:text="메모" android:layout_weight="0.7" android:gravity="center"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_gravity="center">
+
+    <android.support.v7.widget.RecyclerView android:layout_height="350dp" android:layout_width="match_parent" android:id="@+id/recyclerviewMemos" android:textFilterEnabled="true" android:visibility="visible"> </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
+
+</LinearLayout>

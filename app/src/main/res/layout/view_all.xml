@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <TextView android:layout_height="50dp" android:layout_width="0dp" android:fontFamily="@font/dovemayo" android:gravity="center" android:hint="제목" android:layout_weight="0.3" android:id="@+id/txtvT"/>
+
+        <TextView android:layout_height="50dp" android:layout_width="0dp" android:fontFamily="@font/dovemayo" android:gravity="center" android:hint="내용" android:layout_weight="0.7" android:id="@+id/txtvC"/>
+
+</LinearLayout>

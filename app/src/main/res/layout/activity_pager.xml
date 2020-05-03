@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".PagerActivity">
+
+    <android.support.design.widget.TabLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tabLayout" android:background="#c9dbec"/>
+
+    <android.support.v4.view.ViewPager android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/viewPager"/>
+
+</LinearLayout>
