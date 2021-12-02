@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout android:background="#ffffff" tools:context=".TodoFragment" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:weightSum="1" android:orientation="vertical">
+
+
+    <LinearLayout android:background="@drawable/my_border" android:layout_height="0dp" android:layout_width="match_parent" android:orientation="vertical" android:layout_weight="0.9" android:layout_marginRight="15dp" android:layout_marginTop="20dp" android:layout_marginLeft="15dp">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPersonName" android:hint="검색어 입력" android:ems="10" android:id="@+id/etxtSearch"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:inputType="textPersonName" android:hint="할 일 추가" android:ems="10" android:id="@+id/etxtAdd"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/btnAdd" android:text="추가"/>
+
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/recyclerVItems"/>
+
+</LinearLayout>
+
+    <Button android:background="@android:color/black" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="15dp" android:id="@+id/btnSaveTodo" android:text="SAVE" android:textColor="#ffffff" android:layout_marginBottom="5dp" android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</FrameLayout>

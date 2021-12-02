@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="60dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="planet_rotating.json"
+            app:lottie_loop="true" />
+
+        <TextView
+        android:id="@+id/animation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/animation_view"
+        android:layout_alignLeft="@id/animation_view"
+        android:layout_alignRight="@id/animation_view"
+        android:layout_alignTop="@id/animation_view"
+        android:gravity="center"
+
+        android:paddingLeft="20dp"
+        android:text="MaPost."
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

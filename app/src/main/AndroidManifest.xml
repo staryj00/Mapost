@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guru_test_database">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mapicon2_round"
+        android:label="MaPost."
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDg6IiQbFGo5J8c7jeOum7mc0e-6X4st28" />
+        <meta-data
+            android:name="com.google.android.places.API_KEY"
+            android:value="AIzaSyDg6IiQbFGo5J8c7jeOum7mc0e-6X4st28" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="MaPost."
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegActivity" />
+        <activity
+            android:name=".RealMainActivity"
+            android:label="MaPost."
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".PagerActivity" />
+        <activity android:name=".AllViewActivity" />
+        <activity android:name=".FindMemActivity" />
+        <activity android:name=".MemModifyActivity" />
+        <activity android:name=".AllTodoActivity"></activity>
+    </application>
+
+</manifest>
